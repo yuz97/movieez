@@ -11,7 +11,7 @@
    </div>
       <button
          @click="$router.push({ path: '/all-popular' })"
-         class="px-4 py-1 bg-pink-600 shadow-sm rounded-full">
+         class="px-4 py-1 bg-pink-600 shadow-sm rounded-full my-5">
          back
       </button>
    </div>

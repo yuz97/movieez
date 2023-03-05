@@ -1,5 +1,5 @@
 <template>
-   <div class="card grid lg:grid-cols-4 md:grid-cols-2 lg:gap-8 md:gap-4">
+   <div class="card grid lg:grid-cols-4 grid-cols-2 lg:gap-8 gap-4">
       <div
          class="bg-transparent rounded-lg relative"
          v-for="movie in movies.slice(0, 4)"

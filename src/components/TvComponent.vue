@@ -1,5 +1,5 @@
 <template>
-   <div class="card grid lg:grid-cols-4 md:grid-cols-2 lg:gap-8 md:gap-4 md:mb-5">
+   <div class="card grid lg:grid-cols-4 md:grid-cols-2 lg:gap-8 md:gap-4 ">
       <div
          class="bg-transparent rounded-lg relative"
          v-for="tv in televisions.slice(0, 4)"
@@ -39,7 +39,7 @@
          </div>
          <router-link
             :to="`/tv/${tv.id}`"
-            class="px-4 py-1 bg-pink-600 block shadow-sm rounded-full btn-movie text-center mt-3 hover:text-white hover:bg-white/70 backdrop-blur-md">
+            class="px-4 py-1 bg-pink-600 block shadow-sm rounded-full btn-movie text-center my-3 hover:text-white hover:bg-white/70 backdrop-blur-md">
             Detail
          </router-link>
       </div>

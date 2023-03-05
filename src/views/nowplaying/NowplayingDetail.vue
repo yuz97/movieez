@@ -38,10 +38,12 @@
                </ul>
             </div>
          </div>
+         <div v-if="similar != ''">
          <h4 class="text-xl font-bold mt-10">Similar movie</h4>
          <div class="flex mx-auto my-5">
             <slide-scroll :similar="similar" />
          </div>
+       </div>
          <button
             @click="$router.push({ path: '/playing' })"
             class="px-4 py-1 bg-pink-600 shadow-sm rounded-full">
